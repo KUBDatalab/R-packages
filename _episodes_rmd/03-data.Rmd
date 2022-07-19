@@ -19,4 +19,8 @@ knitr_fig_path("03-")
 ```
 
 
+## External data
+
+## Internal data
+
 {% include links.md %}
