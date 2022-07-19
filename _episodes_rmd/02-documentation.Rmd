@@ -1,0 +1,22 @@
+---
+title: "Documentation"
+teaching: 10
+exercises: 5
+questions:
+- FIXME
+objectives:
+- FIXME
+keypoints:
+- FIXME
+source: Rmd
+---
+
+Indledende øvelser
+
+```{r, include = FALSE}
+source("../bin/chunk-options.R")
+knitr_fig_path("00-")
+```
+
+
+{% include links.md %}
