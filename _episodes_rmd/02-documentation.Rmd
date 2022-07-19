@@ -11,12 +11,17 @@ keypoints:
 source: Rmd
 ---
 
-Indledende øvelser
-
 ```{r, include = FALSE}
 source("../bin/chunk-options.R")
 knitr_fig_path("00-")
 ```
 
+
+Det er en rigtig god ide at dokumentere sine funktioner. 
+Ikke kun med kommentarer.
+
+Men også fordi den struktur vi tilføjer til vores funktioner til dokumentation,
+hjælper til automatisering af en række andre fænomener omkring pakker.
+roxygen2
 
 {% include links.md %}
