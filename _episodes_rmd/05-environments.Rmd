@@ -18,5 +18,12 @@ source("../bin/chunk-options.R")
 knitr_fig_path("06-")
 ```
 
+Hvad er tilgængeligt hvor?
+
+:: notationen
+
+Særlige udfordringer med pipen.
+
+usethis::
 
 {% include links.md %}
