@@ -18,5 +18,50 @@ source("../bin/chunk-options.R")
 knitr_fig_path("06-")
 ```
 
+## github er stedet at starte.
+
+## CRAN er der vi fortsætter
+
+I så fald skal der være tests og andet på plads.
+
+Det kan være bøvlet...
+
+der er syv trin.
+
+1. vælg et versionsnummer
+2. kør og dokumenter R CMD check
+3. kontroller at du overholder CRAN politikker
+4. Update README.me og NEWS.md
+5. submit din pakke til CRAN
+6. Forbered den næste version ved at opdatere versionsnummer
+7. Publicer den nye version.
+
+Gode råd
+Gem kommentarer til submission processen i en fil *cran-comments.md.
+Den skal være med i git. og listet i .Rbuildignore - så den ikke er med i pakken.
+
+Indhold:
+
+## R CMD check results
+
+Der skal ikke være ERROS eller WARNINGS
+
+Er der noter, skal de forklares
+
+downstream dependencies
+
+
+Din pakke skal bestå med den seneste udvikler version af R. Og på mindst to
+platforme. Så ikke kun mac. men mac og windows.
+
+der findes værktøjer der kan checke din pakke med forskellige versioner.
+It’s painful to manage multiple R versions, especially since you’ll need to reinstall all your packages. Instead, you can run R CMD check on CRAN’s servers with the devtools::check_win_*() family of functions. They build your package and submit it to the CRAN win-builder. 10-20 minutes after submission, you’ll receive an e-mail telling you the check results.
+
+usethis::use_github_action_check_standard() (som nok skal smides på de pakker vi udvikler på.)
+
+
+CRAN politikker
+https://cran.r-project.org/web/packages/policies.html
+
 
 {% include links.md %}
