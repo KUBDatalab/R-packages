@@ -1,5 +1,5 @@
 ---
-title: "Before we Start"
+title: "Environment"
 teaching: 10
 exercises: 5
 questions:
@@ -15,8 +15,15 @@ Indledende øvelser
 
 ```{r, include = FALSE}
 source("../bin/chunk-options.R")
-knitr_fig_path("00-")
+knitr_fig_path("06-")
 ```
 
+Hvad er tilgængeligt hvor?
+
+:: notationen
+
+Særlige udfordringer med pipen.
+
+usethis::
 
 {% include links.md %}
